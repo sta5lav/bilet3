@@ -6,7 +6,6 @@ public class Main {
         String inputWord = scanner.nextLine();
         for (int i = 0; i < (inputWord.length()/2); i++) {
             System.out.print(inputWord.charAt(i));
-            System.out.println();
         }
     }
 }
